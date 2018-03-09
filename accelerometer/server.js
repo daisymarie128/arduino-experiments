@@ -41,7 +41,7 @@ board = new five.Board();
 function startAccelerometer(socket) {
   board.on("ready", function() {
     accel = new five.Accelerometer({
-      pins: ["A3", "A4", "A5"],
+      pins: ["A1", "A2", "A3"],
       sensitivity: 26, // mV/degree/seconds
       zeroV: 478 // volts in ADC
     });
