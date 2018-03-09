@@ -1,0 +1,14 @@
+{
+  "name": "pulse-secsor",
+  "version": "1.0.0",
+  "description": "basic setup of pulse sensor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daisy Smith",
+  "license": "MIT",
+  "dependencies": {
+    "node-pulsesensor": "0.0.3"
+  }
+}
